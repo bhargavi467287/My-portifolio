@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href ="style.css">
+    <style>
+        header {
+            background-color:  #222;
+            color: white;
+            padding: 20px;
+        }
+        main{
+            margin-top:108px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">MY PORTFOLIO</h2>
+            <ul>
+            
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href ="#skills">Skills</a></li>
+                <li><a href ="#projects">Projects</a></li>
+                <li><a href ="#contact me ">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" >
+        <div class="hero content">
+            <img src="./profile.jpg" alt="profile picture" class="profile-pic">
+            <br><br>
+            
+            <h1>Hi! I'm VamsiPriya Gajula</h1>
+            <p> I'm a passionate  Web Developer</p>
+            <a href="#Contact Me" class="btn">Hire Me</a>
+
+
+        </div>
+
+    </section>
+    <section id="about">
+        <h2> About Me</h2>
+        <p> Hello I am a web Developer specializing web technologies.I love building interactive and scalable web applications</p>
+         </section>
+         
+    <section id ="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+                <div class="progress"><div class="progress-bar" style="width :90%" ></div></div>
+        </div>
+         <div class ="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="progress-bar" style="width: 80% " ></div></div>
+         </div>
+         <div class ="skill">
+            <p>Java Script</p>
+            <div class="progress"><div class="progress-bar" style="width: 70%" ></div></div>
+
+
+        </div>
+        
+
+    </section>
+    <section id="projects">
+        <h2> Projects</h2>
+        <div class="projects-container">
+
+        
+        <div class ="project-card">
+            <img src="project1.jpg"alt="portfolio project" width="400" height="400">
+            <h3>portfolio website</h3>
+            <p>A personal portfolio website showcasing my work.</p>
+            <a  href ="project1.html" class="btn">view project</a>
+        </div>
+            
+                <div class="project-card">
+                    <img src="project2.jpg" alt ="E commerce Project" width="600"   height ="500">
+                    <h3>E-Commerce Website</h3>
+                    <p> Built a fully functional online store with payment integration</p>
+                    <a   href ="project2.html"class="btn">view project</a>
+                </div>
+                <div class="project-card">
+            
+            <img src ="project3.jpg " alt="Weather App" width="500" height="300">
+            <h3 >Weather App</h3>
+             <p>Developed a weather forecasting app using APIs.</p>
+             <a   href ="project3.html" class="btn"> View Project</a>
+        </div>
+        </div>
+
+    </section>
+    <section id="contact me">
+        <h2>Contact Me </h2>
+        <form>
+            
+            
+            <input type=" name" placeholder ="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="Submit">Send Message</button>
+            <a class="btn" href ="mailto:gajulavamsipriya@gmail.com">Email me</a>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Developer. All Rights Reserved.</p>
+    </footer>
+
+        
+
+    </section>
+    
+</body>
+</html>
